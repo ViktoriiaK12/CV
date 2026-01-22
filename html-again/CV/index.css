@@ -1,0 +1,204 @@
+/*   * {
+    padding: 0;
+    margin: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: rgb(221, 234, 218);
+    color: rgb(23, 42, 27);
+    font-size: 17px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    color: rgb(23, 50, 31);
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgb(20, 51, 30);
+}
+
+.begining {
+    padding-top: 30px;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .begining {
+       display: block;
+       text-align: center;
+    }
+}
+
+.begining-text {
+    margin-left: 23px;
+}
+
+.begining h2{
+color: rgb(44, 75, 45);
+/*font-weight 
+text-decoration 
+text-transform: lowercase;
+letter-spacing
+word-spacing*/
+}
+
+.begining h1, h2 {
+margin: 5px; /* отступы */
+}
+
+.begining2 p {
+    font-style: italic;
+    margin: auto;
+}
+
+.dw {
+    background-color: rgb(201, 221, 209);
+}
+
+.Umiejętności {
+    background-color:rgb(209, 246, 224) ;
+    padding: 5px 10px;
+    border: rgb(52, 72, 52) solid 1px;
+    /* border bottom
+    border top width
+    border right color  */
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.Languages {
+    background-color: rgb(209, 252, 216);
+    border-radius: 20px;
+    border: rgb(52, 72, 52) solid 1px;
+    margin: 2px;
+    padding: 5px 10px;
+}
+
+ul {
+    padding: 0 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+
+.box {
+ margin: auto;
+}
+
+a {
+    color: rgb(11, 26, 14);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(36, 101, 66);
+} /* дрлгое нажатие  */
+
+a:visited {
+    color: rgb(112, 174, 127);
+}
+
+.Ending {
+    margin-bottom: 40px;
+}
+/*
+.Contact h3 {
+text-align: center;
+}
+
+.cont label {
+   display: block;
+   color: rgb(21, 41, 34);
+}
+
+.cont input,
+.cont textarea,
+.cont select {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(45, 100, 45);
+    background-color: transparent;
+   outline: none;
+   font-family: inherit;
+    padding: 3px;
+}
+
+.Contact2 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Contact2 > .cont {
+    width: 100%;
+}
+
+.Contact2 > .cont:last-child {
+    margin-left: 100px;
+}
+
+
+.button {
+    background: rgb(23, 53, 28);
+    color: rgb(179, 229, 185);
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/*.window {
+    position: relative;
+border: 3px black solid;
+margin: 30px;
+padding: 30px;
+height: 100px;
+} */
+
+.window2 {
+position: fixed;
+background-color: rgb(63, 84, 66);
+width: 100%;
+height: 25px;
+top: 0;
+left: 0;
+}
+.window3 {
+position: fixed;
+background-color:rgb(63, 84, 66);
+width: 100%;
+height: 25px;
+bottom: 0;
+left: 0;
+}
+
+
+/*position: absolute; двигается в родительской рамке */
+/* position: static; по умолсанию не двигается */ 
+  
+
+/*.squares > div {
+    background-color: black;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: 5px red solid;
+    box-sizing: border-box;
+    
+}  */
